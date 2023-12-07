@@ -83,12 +83,12 @@ export default definePlugin({
         return [
             {
                 section: SectionTypes.HEADER,
-                label: "Vencord",
+                label: "OwO mod",
                 className: "vc-settings-header"
             },
             {
                 section: "VencordSettings",
-                label: "Vencord",
+                label: "OwO mod",
                 element: require("@components/VencordSettings/VencordTab").default,
                 className: "vc-settings"
             },
